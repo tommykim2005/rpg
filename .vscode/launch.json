@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "rpgGame_55e3379b"
+    },
+    {
+      "type": "java",
+      "name": "Run RPG Game",
+      "request": "launch",
+      "mainClass": "main.Main",
+      "classPaths": [
+        "${workspaceFolder}/bin",
+        "${workspaceFolder}/res"
+      ],
+      "vmArgs": "--enable-preview"
+    }
+  ]
+}
